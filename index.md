@@ -1,15 +1,9 @@
-index.md
-
 ---
-layout: default
-title: Home
+layout: home
+author_profile: true
+title: "Annina Claesson"
 ---
 
-# Annina Claesson
-PhD Candidate in Sociology, [CREST (Institut Polytechnique de Paris) & Sciences Po médialab]  
-Email: annina.claesson@sciencespo.fr • [Google Scholar](#https://scholar.google.com/citations?user=lYqPQXMAAAAJ&hl=sv&oi=ao) • [ORCID](#) • [CV (PDF)](/assets/CV.pdf)
+I am a PhD Candidate in Sociology between CREST (Institut Polytechnique de Paris) and the médialab of Sciences Po, studying the role of social media in parliamentary work. 
 
-I study public figures navigating online spaces. 
-
-## News
-
+On this site you can find my [About](/about/), [Publications](/publications/), [Teaching](/teaching/), and [CV](/cv/).
