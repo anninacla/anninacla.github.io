@@ -1,23 +1,30 @@
+# ======================================================
 # Site settings
+# ======================================================
 title: "Annina Claesson"
-description: "PhD Researcher"
+description: "PhD Researcher in Sociology"
 url: "https://anninacla.github.io"
 baseurl: ""   # leave empty since this is a user site
 
+# ======================================================
 # Author settings
+# ======================================================
 author:
   name: "Annina Claesson"
   avatar: "images/profile.jpg"   # put your photo in /images/
-  bio: "PhD Candidate focusing on how public figures navigate social media"
+  bio: "PhD Candidate in Sociology at Sciences Po, focusing on how public figures navigate social media"
   email: "annina.claesson@sciencespo.fr"
   orcid: "0000-0002-4114-2406"
   github: "anninacla"
   scholar: "lYqPQXMAAAAJ"
-  bluesky: "anninac.bsky.social"   # or bluesky/mastodon, etc.
+  bluesky: "anninac.bsky.social"
+  
 
+# ======================================================
 # Theme settings
+# ======================================================
 remote_theme: "mmistakes/minimal-mistakes@4.24.0"
-minimal_mistakes_skin: "default"  # options: air, aqua, contrast, dark, default, neon, etc.
+minimal_mistakes_skin: "default"   # skins: air, aqua, contrast, dark, default, neon, etc.
 
 # Plugins (GitHub Pages supported)
 plugins:
@@ -26,8 +33,10 @@ plugins:
   - jekyll-seo-tag
   - jekyll-include-cache
 
+# ======================================================
 # Navigation
-# These items show up in the top menu bar
+# ======================================================
+# These links show up in the top menu bar
 navigation:
   - title: "Home"
     url: /
@@ -39,10 +48,14 @@ navigation:
     url: /publications/
   - title: "Teaching"
     url: /teaching/
+  - title: "News"
+    url: /news/
   - title: "CV"
     url: /cv/
 
-# Collections (used for structured content)
+# ======================================================
+# Collections (structured content)
+# ======================================================
 collections:
   publications:
     output: true
@@ -50,12 +63,55 @@ collections:
   teaching:
     output: true
     permalink: /teaching/:path/
+  news:
+    output: true
+    permalink: /news/:path/
 
+# ======================================================
+# Defaults for posts/collections
+# ======================================================
+defaults:
+  # default layout for pages
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: single
+      author_profile: true
+
+  # default layout for publications
+  - scope:
+      path: ""
+      type: publications
+    values:
+      layout: single
+      author_profile: false
+
+  # default layout for teaching
+  - scope:
+      path: ""
+      type: teaching
+    values:
+      layout: single
+      author_profile: false
+
+  # default layout for news items
+  - scope:
+      path: ""
+      type: news
+    values:
+      layout: single
+      author_profile: false
+
+# ======================================================
 # Markdown settings
+# ======================================================
 markdown: kramdown
 highlighter: rouge
 
+# ======================================================
 # Analytics (optional)
+# ======================================================
 # analytics:
 #   provider: "google-gtag"
 #   google:
