@@ -6,3 +6,13 @@ plugins:
   - jekyll-seo-tag
 url: "https://anninacla.github.io"
 author: Annina Claesson
+
+nav:
+  - name: Home
+    link: /
+  - name: About
+    link: /about
+  - name: Publications
+    link: /publications
+  - name: Teaching
+    link: /teaching
