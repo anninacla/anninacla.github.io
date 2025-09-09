@@ -1,18 +1,63 @@
-title: Annina Claesson
-description: PhD Researcher
-remote_theme: pages-themes/minimal@v0.2.0  # simple, built-in-compatible theme
+# Site settings
+title: "Annina Claesson"
+description: "PhD Researcher"
+url: "https://anninacla.github.io"
+baseurl: ""   # leave empty since this is a user site
+
+# Author settings
+author:
+  name: "Annina Claesson"
+  avatar: "images/profile.jpg"   # put your photo in /images/
+  bio: "PhD Candidate focusing on how public figures navigate social media"
+  email: "annina.claesson@sciencespo.fr"
+  orcid: "0000-0002-4114-2406"
+  github: "anninacla"
+  scholar: "lYqPQXMAAAAJ"
+  bluesky: "anninac.bsky.social"   # or bluesky/mastodon, etc.
+
+# Theme settings
+remote_theme: "mmistakes/minimal-mistakes@4.24.0"
+minimal_mistakes_skin: "default"  # options: air, aqua, contrast, dark, default, neon, etc.
+
+# Plugins (GitHub Pages supported)
 plugins:
   - jekyll-feed
+  - jekyll-sitemap
   - jekyll-seo-tag
-url: "https://anninacla.github.io"
-author: Annina Claesson
+  - jekyll-include-cache
 
-nav:
-  - name: Home
-    link: /
-  - name: About
-    link: /about
-  - name: Publications
-    link: /publications
-  - name: Teaching
-    link: /teaching
+# Navigation
+# These items show up in the top menu bar
+navigation:
+  - title: "Home"
+    url: /
+  - title: "About"
+    url: /about/
+  - title: "Research"
+    url: /research/
+  - title: "Publications"
+    url: /publications/
+  - title: "Teaching"
+    url: /teaching/
+  - title: "CV"
+    url: /cv/
+
+# Collections (used for structured content)
+collections:
+  publications:
+    output: true
+    permalink: /publications/:path/
+  teaching:
+    output: true
+    permalink: /teaching/:path/
+
+# Markdown settings
+markdown: kramdown
+highlighter: rouge
+
+# Analytics (optional)
+# analytics:
+#   provider: "google-gtag"
+#   google:
+#     tracking_id: "UA-XXXXXXX-X"
+#     anonymize_ip: true
