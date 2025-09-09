@@ -1,0 +1,8 @@
+title: Annina Claesson
+description: PhD Researcher
+remote_theme: pages-themes/minimal@v0.2.0  # simple, built-in-compatible theme
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+url: "https://anninacla.github.io"
+author: Annina Claesson
