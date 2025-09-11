@@ -11,7 +11,7 @@ baseurl: ""   # leave empty since this is a user site
 # ======================================================
 author:
   name: "Annina Claesson"
-  avatar: "images/ac ScPo 2022.jpg"   # put your photo in /images/
+  avatar: "images/profile.jpg"   # put your photo in /images/
   bio: "PhD Candidate in Sociology at Sciences Po, focusing on how public figures navigate social media"
   email: "annina.claesson@sciencespo.fr"
   orcid: "0000-0002-4114-2406"
@@ -25,21 +25,23 @@ author:
 remote_theme: "mmistakes/minimal-mistakes@4.24.0"
 minimal_mistakes_skin: "default"   # skins: air, aqua, contrast, dark, default, neon, etc.
 
-# Plugins (GitHub Pages supported)
+# Plugins (allowed since we build with Actions)
 plugins:
   - jekyll-feed
   - jekyll-sitemap
   - jekyll-seo-tag
+  - jekyll-include-cache
 
 # ======================================================
 # Navigation (top menu)
 # ======================================================
-# Minimal Mistakes reads the `navigation:` array for the top menu.
 navigation:
   - title: "Home"
     url: /
   - title: "About"
     url: /about/
+  - title: "Research"
+    url: /research/
   - title: "Publications"
     url: /publications/
   - title: "Teaching"
@@ -99,11 +101,3 @@ defaults:
 markdown: kramdown
 highlighter: rouge
 
-# ======================================================
-# Analytics (optional)
-# ======================================================
-# analytics:
-#   provider: "google-gtag"
-#   google:
-#     tracking_id: "UA-XXXXXXX-X"
-#     anonymize_ip: true
