@@ -42,14 +42,10 @@ navigation:
     url: /
   - title: "About"
     url: /about/
-  - title: "Research"
-    url: /research/
   - title: "Publications"
     url: /publications/
   - title: "Teaching"
     url: /teaching/
-  - title: "News"
-    url: /news/
   - title: "CV"
     url: /cv/
 
