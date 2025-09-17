@@ -48,6 +48,18 @@ plugins:
 # REMOVE Collections section (using plain markdown)
 # ======================================================
 
+# Force empty collections
+collections:
+  posts:
+    output: false
+  publications:
+    output: false
+  teaching:
+    output: false
+
+# Disable pagination (which shows recent posts)
+paginate: false
+paginate_path: null
 # ======================================================
 # Defaults for layouts
 # ======================================================
