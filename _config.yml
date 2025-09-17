@@ -76,7 +76,7 @@ defaults:
 
   # Home page
   - scope:
-      path: "pages/index.md"
+      path: "index.md"
       type: "pages"
     values:
       layout: home
