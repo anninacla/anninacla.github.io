@@ -1,9 +1,7 @@
 source "https://rubygems.org"
 
-gem "jekyll", "~> 4.3"
-gem "jekyll-remote-theme"
+# GitHub Pages gem includes Jekyll and most plugins
+gem "github-pages", group: :jekyll_plugins
+
+# Minimal Mistakes requires this
 gem "jekyll-include-cache"
-gem "jekyll-feed"
-gem "jekyll-sitemap"
-gem "jekyll-seo-tag"
-gem "kramdown-parser-gfm"
