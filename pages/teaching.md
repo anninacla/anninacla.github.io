@@ -1,11 +1,10 @@
 ---
 layout: single
-title: Publications
-permalink: /publications/
+title: Teaching
+permalink: /teaching/
 classes: small  # For smaller font
 ---
 
-### Teaching Experience
 **Primary instructor**
 French News Review - Sciences Po Welcome Programme, 2025
 Enjeux Sociaux - ENSAE, 2025
