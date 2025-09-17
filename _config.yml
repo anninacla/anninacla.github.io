@@ -11,7 +11,7 @@ baseurl: ""  # user site
 # ======================================================
 author:
   name: "Annina Claesson"
-  avatar: "images/ac scpo 2022.jpg"   # optional, put your photo in /images/
+  avatar: "images/ac-ScPo-2022.jpg"   # optional, put your photo in /images/
   bio: "PhD Candidate in Sociology at Sciences Po, focusing on social media and public figures"
   email: "annina.claesson@sciencespo.fr"
   github: "anninacla"
