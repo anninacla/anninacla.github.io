@@ -16,7 +16,6 @@ author:
   email: "annina.claesson@sciencespo.fr"
   links:
     - label: "GitHub"
-      icon: "fab fa-github"
       url: "https://github.com/anninacla"
     - label: "Google Scholar"
       icon: "ai ai-google-scholar"
