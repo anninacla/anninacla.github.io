@@ -1,40 +1,31 @@
-# ======================================================
 # Site settings
-# ======================================================
 title: "Annina Claesson"
 description: "PhD Researcher in Sociology"
 url: "https://anninacla.github.io"
-baseurl: ""   # leave empty since this is a user site
+baseurl: ""  # user site
 
-# ======================================================
-# Author settings
-# ======================================================
+# Author info
 author:
   name: "Annina Claesson"
-  avatar: "images/ac ScPo 2022.jpg.jpg"   # put your photo in /images/
-  bio: "PhD Candidate in Sociology at Sciences Po, focusing on how public figures navigate social media"
+  avatar: "images/profile.jpg"
+  bio: "PhD Candidate in Sociology at Sciences Po, focusing on social media and public figures"
   email: "annina.claesson@sciencespo.fr"
-  orcid: "0000-0002-4114-2406"
   github: "anninacla"
   scholar: "lYqPQXMAAAAJ"
   bluesky: "anninac.bsky.social"
 
-# ======================================================
-# Theme settings
-# ======================================================
+# Theme
 remote_theme: "mmistakes/minimal-mistakes@4.24.0"
-minimal_mistakes_skin: "default"   # skins: air, aqua, contrast, dark, default, neon, etc.
+minimal_mistakes_skin: "default"
 
-# Plugins (allowed since we build with Actions)
+# Plugins
 plugins:
   - jekyll-feed
   - jekyll-sitemap
   - jekyll-seo-tag
   - jekyll-include-cache
 
-# ======================================================
-# Navigation (top menu)
-# ======================================================
+# Navigation menu (simplified)
 navigation:
   - title: "Home"
     url: /
@@ -45,9 +36,7 @@ navigation:
   - title: "Teaching"
     url: /teaching/
 
-# ======================================================
-# Collections (structured content)
-# ======================================================
+# Collections
 collections:
   publications:
     output: true
@@ -55,45 +44,28 @@ collections:
   teaching:
     output: true
     permalink: /teaching/:path/
-  news:
-    output: true
-    permalink: /news/:path/
 
-# ======================================================
-# Defaults for pages & collections
-# ======================================================
+# Defaults for layouts
 defaults:
   - scope:
       path: ""
       type: "pages"
     values:
-      layout: "single"
+      layout: single
       author_profile: true
-
   - scope:
       path: ""
       type: "publications"
     values:
-      layout: "single"
+      layout: single
       author_profile: false
-
   - scope:
       path: ""
       type: "teaching"
     values:
-      layout: "single"
+      layout: single
       author_profile: false
 
-  - scope:
-      path: ""
-      type: "news"
-    values:
-      layout: "single"
-      author_profile: false
-
-# ======================================================
-# Markdown & syntax highlighting
-# ======================================================
+# Markdown settings
 markdown: kramdown
 highlighter: rouge
-
