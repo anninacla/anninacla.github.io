@@ -1,7 +1,7 @@
 # ======================================================
 # Site settings
 # ======================================================
-title: ""
+title: "Annina Claesson"
 description: "PhD Researcher in Sociology"
 url: "https://anninacla.github.io"
 baseurl: ""  # user site
@@ -16,6 +16,7 @@ author:
   email: "annina.claesson@sciencespo.fr"
   links:
     - label: "GitHub"
+      icon: "fab fa-github"
       url: "https://github.com/anninacla"
     - label: "Google Scholar"
       icon: "ai ai-google-scholar"
@@ -40,15 +41,12 @@ plugins:
   - jekyll-include-cache
 
 # ======================================================
-# Navigation menu
+# REMOVE Navigation menu section (using data file instead)
 # ======================================================
-navigation:
-  - title: "Home"
-    url: /
-  - title: "Publications"
-    url: /publications/
-  - title: "Teaching"
-    url: /teaching/
+
+# ======================================================
+# REMOVE Collections section (using plain markdown)
+# ======================================================
 
 # ======================================================
 # Defaults for layouts
@@ -60,5 +58,10 @@ defaults:
       type: "pages"
     values:
       layout: single
-      author_profile: true  # Changed to false to remove sidebar on pages
+      author_profile: false  # No sidebar on regular pages
 
+# ======================================================
+# Markdown settings
+# ======================================================
+markdown: kramdown
+highlighter: rouge
