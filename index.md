@@ -2,6 +2,7 @@
 layout: home
 author_profile: true
 homepage: true
+show_featured: false  
 ---
 
 I am currently a PhD candidate splitting my time between CREST (Institut Polytechnique de Paris) and the médialab of Sciences Po, supervised by Étienne Ollion and Sylvain Parasie. In my thesis, I study how social media affects everyday political work, focusing on the French Assemblée Nationale.
