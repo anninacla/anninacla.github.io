@@ -61,7 +61,7 @@ defaults:
       type: "pages"
     values:
       layout: single
-      author_profile: false  # Changed to false to remove sidebar on pages
+      author_profile: true  # Changed to false to remove sidebar on pages
 
   # Home page - remove "recent posts"
   - scope:
@@ -70,5 +70,4 @@ defaults:
       layout: home
       author_profile: true
       homepage: true
-      classes: wide  # Makes content wider
 
