@@ -11,12 +11,19 @@ baseurl: ""  # user site
 # ======================================================
 author:
   name: "Annina Claesson"
-  avatar: "images/ac-ScPo-2022.jpg"   # avatar image in /images/
-  bio: "PhD Candidate in Sociology at Sciences Po, focusing on social media and public figures"
+  avatar: "images/ac-ScPo-2022.jpg"
+  bio: "PhD Candidate - CREST & Sciences Po médialab"
   email: "annina.claesson@sciencespo.fr"
-  github: "anninacla"
-  scholar: "lYqPQXMAAAAJ"
-  bluesky: "anninac.bsky.social"
+  links:
+    - label: "GitHub"
+      icon: "fab fa-github"
+      url: "https://github.com/anninacla"
+    - label: "Google Scholar"
+      icon: "ai ai-google-scholar"
+      url: "https://scholar.google.com/citations?user=lYqPQXMAAAAJ"
+    - label: "Bluesky"
+      icon: "fab fa-bluesky"  # or use a custom icon
+      url: "https://bsky.app/profile/anninac.bsky.social"
 
 # ======================================================
 # Theme
