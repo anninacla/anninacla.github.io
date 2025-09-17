@@ -62,11 +62,3 @@ defaults:
       layout: single
       author_profile: true  # Changed to false to remove sidebar on pages
 
-  # Home page - remove "recent posts"
-  - scope:
-      path: "index.md"
-    values:
-      layout: home
-      author_profile: true
-      homepage: true
-
