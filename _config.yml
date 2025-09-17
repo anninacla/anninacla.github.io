@@ -22,7 +22,7 @@ author:
       icon: "ai ai-google-scholar"
       url: "https://scholar.google.com/citations?user=lYqPQXMAAAAJ"
     - label: "Bluesky"
-      icon: "fab fa-bluesky"  # or use a custom icon
+      icon: "fab fa-bluesky"
       url: "https://bsky.app/profile/anninac.bsky.social"
 
 # ======================================================
@@ -52,15 +52,8 @@ navigation:
     url: /teaching/
 
 # ======================================================
-# Collections
+# REMOVE Collections section entirely
 # ======================================================
-collections:
-  publications:
-    output: true
-    permalink: /publications/:path/
-  teaching:
-    output: true
-    permalink: /teaching/:path/
 
 # ======================================================
 # Defaults for layouts
@@ -72,31 +65,16 @@ defaults:
       type: "pages"
     values:
       layout: single
-      author_profile: true
+      author_profile: false  # Changed to false to remove sidebar on pages
 
-  # Home page
+  # Home page - remove "recent posts"
   - scope:
       path: "index.md"
-      type: "pages"
     values:
       layout: home
       author_profile: true
-
-  # Publications collection
-  - scope:
-      path: ""
-      type: "publications"
-    values:
-      layout: single
-      author_profile: false
-
-  # Teaching collection
-  - scope:
-      path: ""
-      type: "teaching"
-    values:
-      layout: single
-      author_profile: false
+      homepage: true
+      classes: wide  # Makes content wider
 
 # ======================================================
 # Markdown settings
