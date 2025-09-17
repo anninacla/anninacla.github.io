@@ -1,7 +1,8 @@
 ---
 layout: single
-title: "Teaching"
-permalink: /teaching/
+title: Publications
+permalink: /publications/
+classes: small  # For smaller font
 ---
 
 ### Teaching Experience
