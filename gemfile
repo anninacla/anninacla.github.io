@@ -1,7 +1,4 @@
 source "https://rubygems.org"
 
-# GitHub Pages gem includes Jekyll and most plugins
 gem "github-pages", group: :jekyll_plugins
-
-# Minimal Mistakes requires this
 gem "jekyll-include-cache"
