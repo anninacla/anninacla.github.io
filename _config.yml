@@ -44,8 +44,6 @@ navigation:
     url: /publications/
   - title: "Teaching"
     url: /teaching/
-  - title: "CV"
-    url: /cv/
 
 # ======================================================
 # Collections (structured content)
