@@ -52,10 +52,6 @@ navigation:
     url: /teaching/
 
 # ======================================================
-# REMOVE Collections section entirely
-# ======================================================
-
-# ======================================================
 # Defaults for layouts
 # ======================================================
 defaults:
@@ -75,10 +71,4 @@ defaults:
       author_profile: true
       homepage: true
       classes: wide  # Makes content wider
-
-# ======================================================
-# Markdown settings
-# ======================================================
-markdown: kramdown
-highlighter: rouge
 
