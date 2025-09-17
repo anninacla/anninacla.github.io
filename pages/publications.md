@@ -4,7 +4,7 @@ title: Publications
 permalink: /publications/
 classes: small  # For smaller font
 ---
-[Full CV](../assets/cvac.pdf) | [Google Scholar]([https://scholar.google.com/citations?user=lYqPQXMAAAAJ)
+[Full CV](assets/cvac.pdf) | [Google Scholar](https://scholar.google.com/citations?user=lYqPQXMAAAAJ)
 
 ## Peer-Reviewed Articles
 Claesson, A (2025) *Le prix de la visibilité : Une analyse computationnelle des interactions en ligne avec des parlementaires* (forthcoming in Revue française de science politique)
