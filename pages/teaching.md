@@ -7,6 +7,7 @@ classes: small  # For smaller font
 
 **Primary instructor**
 
+
 French News Review - Sciences Po Welcome Programme, 2025
 
 Enjeux Sociaux - ENSAE, 2025
