@@ -12,10 +12,10 @@ Claesson, A (2025) *Le prix de la visibilité : Une analyse computationnelle des
 Claesson, A. (2025). [Influencers in Parliament? Platform Pressures and Normative Conflict in Political Social Media Adoption](https://doi.org/10.1177/20563051251395410). Social Media + Society, 11(4).
 
 
-Claesson, A (2023) *“Twitter: a necessary evil? Journalistic Responses to Elon Musk and the Denormalization of Social Media”.* Journalism (online first)
+Claesson, A (2023) *“Twitter: a necessary evil? Journalistic Responses to Elon Musk and the Denormalization of Social Media”.* Journalism, 25(12), 2604-2621
 -> open access version on [SocArxiv](https://osf.io/preprints/socarxiv/b54at_v1)
 
-Claesson, A. (2022) *“I Really Wanted Them to Have My Back, but They Didn’t”—Structural Barriers to Addressing Gendered Online Violence against Journalists.* Digital Journalism, DOI: 10.1080/21670811.2022.2110509
+Claesson, A. (2022) *“I Really Wanted Them to Have My Back, but They Didn’t”—Structural Barriers to Addressing Gendered Online Violence against Journalists.* Digital Journalism, 11(10), 1809–1828.
 -> available on [Safety of Journalists resource platform](https://safetyofjournalists.org/academic-research/i-really-wanted-them-to-have-my-back-but-they-didn-t-structural-barriers-to-addressing-gendered-online-violence-against-journalists)
 
 
