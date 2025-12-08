@@ -9,6 +9,8 @@ classes: small  # For smaller font
 ## Peer-Reviewed Articles
 Claesson, A (2025) *Le prix de la visibilité : Une analyse computationnelle des interactions en ligne avec des parlementaires* (forthcoming in Revue française de science politique)
 
+Claesson, A. (2025). [Influencers in Parliament? Platform Pressures and Normative Conflict in Political Social Media Adoption](https://doi.org/10.1177/20563051251395410). Social Media + Society, 11(4).
+
 
 Claesson, A (2023) *“Twitter: a necessary evil? Journalistic Responses to Elon Musk and the Denormalization of Social Media”.* Journalism (online first)
 -> open access version on [SocArxiv](https://osf.io/preprints/socarxiv/b54at_v1)
