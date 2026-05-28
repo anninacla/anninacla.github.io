@@ -7,7 +7,7 @@ classes: small  # For smaller font
 [Full CV](/assets/cvac.pdf) 
 
 ## Peer-Reviewed Articles
-Claesson, A (2025) *Le prix de la visibilité : Une analyse computationnelle des interactions en ligne avec des parlementaires* (forthcoming in Revue française de science politique)
+Claesson, A (2025) [Le prix de la visibilité : Une analyse computationnelle des interactions en ligne avec des parlementaires](https://shs.cairn.info/revue-revue-francaise-de-science-politique-2025-3-page-549?lang=fr). Revue française de science politique, 75(3)
 
 Claesson, A. (2025). [Influencers in Parliament? Platform Pressures and Normative Conflict in Political Social Media Adoption](https://doi.org/10.1177/20563051251395410). Social Media + Society, 11(4).
 
